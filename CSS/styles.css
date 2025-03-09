@@ -1,8 +1,82 @@
 body {
             font-family: "Roboto", sans-serif;
-            /* font-optical-sizing: auto;
-            font-weight: <weight>; */
+            Weight: Regular;
+            Size: 16px;
+            Line Height: 1.5;
+            Letter-Spacing: 0.02;
             font-style: normal;
-            /* font-variation-settings:
-                "wdth" 100; */
+            color: #2E2F42
+            background-color: #fff;
         }
+
+ul, li {
+    list-style-type: none;
+    display: inline-block;
+}
+.logo-heder {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+
+}
+.logo-heder .web {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.link:hover,
+.link:focus {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+.section-1 {
+    background-color: #2e2f42;;
+}
+
+.title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.section-1 > button {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 4px;
+            padding: 16px 32px;
+            width: 169px;
+            height: 56px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                background: #4d5ae5;
+                        text-align: center;
+                            color: #fff;
+}
+

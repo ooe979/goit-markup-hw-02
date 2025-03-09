@@ -1,12 +1,12 @@
 body {
             font-family: "Roboto", sans-serif;
-            Weight: Regular;
+            weight: Regular;
             Size: 16px;
             Line Height: 1.5;
             Letter-Spacing: 0.02;
             font-style: normal;
-            color: #2E2F42
-            background-color: #fff;
+            color: #434455
+            background-color: #FFFFFF;
         }
 
 ul, li {
@@ -18,19 +18,19 @@ ul, li {
     text-decoration: none;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
 
 }
-.logo-heder .web {
+.logo-heder .logo {
     font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: #2e2f42;
 }
 
 .link {

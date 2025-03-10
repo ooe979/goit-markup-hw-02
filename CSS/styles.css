@@ -11,7 +11,7 @@ body {
 
 ul, li {
     list-style-type: none;
-    display: inline-block;
+   
 }
 .logo-heder {
     font-family: "Raleway", sans-serif;
@@ -32,6 +32,12 @@ ul, li {
         text-transform: uppercase;
         color: #2e2f42;
 }
+
+address {
+    font-style: normal;
+    color: #434455;
+}
+
 
 .link {
     text-decoration: none;
@@ -58,25 +64,112 @@ font-weight: 500;
 .title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
 }
 
-.section-1 > button {
-    display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
-        border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-                background: #4d5ae5;
-                        text-align: center;
-                            color: #fff;
+.order-button {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        background: #4d5ae5;
+        display: flex;
+    }
+
+.order-button:hover,
+.order-button:focus {
+    background: #404bbf;
+    cursor: pointer;
 }
+
+.skil-list-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.skil-list {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-list {
+    background: #f4f4fd;
+}
+
+.title-team {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.name-taem-specialist {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-specialist {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.title-portfolio-card {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.project-direction {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.footer {
+background: #2e2f42;
+}
+
+.footer-logo {
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-text {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+
+
 

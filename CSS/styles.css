@@ -1,13 +1,12 @@
 body {
             font-family: "Roboto", sans-serif;
             weight: Regular;
-            Size: 16px;
-            Line Height: 1.5;
-            Letter-Spacing: 0.02;
+            font-size: 16px;
+            line height: 1.5;
+            letter-Spacing: 0.02;
             font-style: normal;
-            color: #434455
-            background-color: #ffffff;
-
+            color: #434455;
+            background: #ffffff;
         }
 
 ul, li {

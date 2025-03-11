@@ -48,7 +48,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
     .link:hover,
     .link:focus {
@@ -80,7 +80,7 @@ address {
         letter-spacing: 0.04em;
         color: #ffffff;
         background: #4d5ae5;
-        display: flex;
+        /* display: flex; */
     }
 
     .order-button:hover,
@@ -107,6 +107,10 @@ address {
 
     .team-list {
         background: #f4f4fd;
+    }
+
+    .card-specialist {
+        background-color: #FFFFFF;
     }
 
     .title-team {

@@ -41,7 +41,7 @@ address {
     color: #434455;
 }
 
-.addres .link {
+.address .link {
     color: #434455;
 }
 
@@ -146,9 +146,13 @@ address {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        /* text-align: center; */
+        text-align: center;
         color: #434455;
     }
+
+.card-specialist {
+    background: #ffffff;
+}
 
     .title-portfolio-card {
         font-weight: 500;
